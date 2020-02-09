@@ -1,0 +1,57 @@
+body{
+	background: darkgray;
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+canvas{
+	background: #000;
+	display: none;
+	margin: 0 auto;
+}
+#btnStart,#btnSet{
+	display: block;
+	background: black;
+	color: yellow;
+	font-size: 25px;
+	text-align: center;
+	margin: 30px auto;
+	border: 2px solid  yellow;
+	border-radius: 50px;
+	width: 300px;
+}
+#btnStart:hover,#btnSet:hover{
+	background: yellow;
+	color:  black;
+	border: 2px solid  black;
+}
+.level{
+	font-size: 25px;
+	text-align: center;
+	display: none;
+	width: 300px;
+	margin: 30px auto;
+}
+.level label{
+	display: block;
+	margin-bottom: 20px;
+}
+.level label input{
+	width: 20px;
+	height: 20px;
+}
+
+.block {
+	display: block;
+}
+.score{
+	font-size: 25px;
+	text-align: center;
+	display: block;
+	width: 300px;
+	margin: 30px auto;
+	background: black;
+	color: yellow;
+	padding: 5px 0;
+}

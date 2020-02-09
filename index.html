@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+<meta name="google" value="notranslate">
+<head>
+	<meta charset="UTF-8">
+	<title>Snake</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+</head>
+<body>
+<button type="button" id="btnSet">Выбрать сложность</button>
+<div class="score">
+	Счет:
+	<span id="score"></span>
+</div>
+
+<div class="level" id="lvlSet">
+	<p>Уровень сложности:</p>
+	<form action="index.html" name="choseLevel" method="get">
+		<label for="easy"><input name="level" type="radio" value="300" id="easy" checked>Легко</label>
+		<label for="normal"><input name="level" type="radio" value="200" id="normal">Нормально</label>
+		<label for="hard"><input name="level" type="radio" value="100" id="hard">Сложно</label>
+		<button type="button" id="btnStart">Начать</button>
+	</form>
+</div>
+
+<canvas id="game" width="608" height="608"></canvas>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
